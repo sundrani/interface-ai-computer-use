@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+playwright/.cache/
+evidence/live/*
+!evidence/live/.gitkeep
+artifacts/*.json
+
+# Keep the reusable demo artifact; exclude generated package metadata.
+!artifacts/member_balance.example.json
+*.egg-info/

@@ -1,0 +1,4 @@
+{"ts":"2026-09-07T20:00:00Z","event":"agent_decision","step":0,"decision":{"action":"fill","role":"textbox","name":"Member ID","value":"{{member_id}}","reason":"The goal requires member lookup."}}
+{"ts":"2026-09-07T20:00:01Z","event":"agent_decision","step":1,"decision":{"action":"click","role":"button","name":"Find Member","reason":"Submit lookup."}}
+{"ts":"2026-09-07T20:00:02Z","event":"agent_decision","step":2,"decision":{"action":"read","role":"generic","name":"Savings Balance","output_name":"savings_balance","reason":"Extract requested value."}}
+{"ts":"2026-09-07T20:00:03Z","event":"agent_decision","step":3,"decision":{"action":"done","checkpoint_text":"Member Detail","reason":"Requested balance was obtained."}}
