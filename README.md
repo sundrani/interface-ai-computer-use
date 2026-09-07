@@ -2,6 +2,12 @@
 
 A focused end-to-end implementation for interface.ai's computer-use take-home. The system uses an LLM during **discovery** to operate a real browser surface, records the successful flow into a typed/versioned capability artifact, and then **replays deterministically without an LLM**. It also enforces guardrails, classifies runtime outcomes, captures evidence, and contains a real pause/control/resume seam for human intervention.
 
+## Verified local replay
+
+A genuine local replay completed on September 7, 2026. Its [recorded events](evidence/live/replay_20260907_165253/events.jsonl) show successful fill, click, and read steps, ending with `savings_balance=$12,430.18`. The [success screenshot](evidence/live/replay_20260907_165253/success.png) shows the demo account balance.
+
+See the [run notes](evidence/live/replay_20260907_165253/README.md). This verifies deterministic replay using the example capability. Genuine LLM discovery and a real not-found/error replay are not yet included. Files under `evidence/sample/` remain illustrative.
+
 ## What is implemented
 
 - Goal-driven observe → decide → act loop against a live Playwright browser.
@@ -77,7 +83,7 @@ computer-use replay \
 
 The live run produces timestamped evidence under `evidence/live/`: JSONL decision/action logs, accessibility snapshots, screenshots, and a Playwright `trace.zip`.
 
-**Important:** `evidence/sample/` is explicitly labeled illustrative. Replace/augment it with a genuine discovery and replay trace under `evidence/live/` before sending the repository. The assignment requires a real LLM-driven run; this repo does not pretend a fabricated trace is real.
+**Evidence status:** A genuine successful replay log and screenshot are included under `evidence/live/`. `evidence/sample/` contains illustrative examples only. A genuine LLM discovery run and its replay validation still need to be recorded before completing the submission checklist below.
 
 ## Human-in-the-loop demo
 

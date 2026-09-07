@@ -1,0 +1,7 @@
+{"ts": "2026-09-07T20:52:54.912522+00:00", "event": "step_start", "step_id": "s01", "action": "fill"}
+{"ts": "2026-09-07T20:52:55.012102+00:00", "event": "step_success", "step_id": "s01"}
+{"ts": "2026-09-07T20:52:55.012371+00:00", "event": "step_start", "step_id": "s02", "action": "click"}
+{"ts": "2026-09-07T20:52:55.117969+00:00", "event": "step_success", "step_id": "s02"}
+{"ts": "2026-09-07T20:52:55.118136+00:00", "event": "step_start", "step_id": "s03", "action": "read"}
+{"ts": "2026-09-07T20:52:55.146909+00:00", "event": "step_success", "step_id": "s03"}
+{"ts": "2026-09-07T20:52:55.472121+00:00", "event": "run_success", "outputs": {"savings_balance": "$12,430.18"}}
